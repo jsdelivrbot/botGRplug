@@ -1755,8 +1755,8 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        if (typeof basicBot.settings.fbLink === "string")
-                            API.sendChat(subChat(basicBot.chat.facebook, {link: basicBot.settings.fbLink}));
+                        var link = "https://www.facebook.com/gamingroomtv";
+                        API.sendChat(subChat(basicBot.chat.fb, {link: link}));
                     }
                 }
             },
@@ -1769,8 +1769,8 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        if (typeof basicBot.settings.twitterLink === "string")
-                            API.sendChat(subChat(basicBot.chat.facebook, {link: basicBot.settings.twitterLink}));
+                        var link = "https://twitter.com/GamingRoomTV";
+                        API.sendChat(subChat(basicBot.chat.twitter, {link: link}));
                     }
                 }
             },
@@ -2847,8 +2847,8 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        if (typeof basicBot.settings.youtubeLink === "string")
-                            API.sendChat(subChat(basicBot.chat.youtube, {name: chat.un, link: basicBot.settings.youtubeLink}));
+                        var link = "https://www.youtube.com/user/GamingRoomFR";
+                        API.sendChat(subChat(basicBot.chat.youtube, {link: link}));
                     }
                 }
             }
