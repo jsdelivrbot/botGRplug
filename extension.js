@@ -53,7 +53,7 @@
     //Change the bots default settings and make sure they are loaded on launch
 
     localStorage.setItem("basicBotsettings", JSON.stringify({
-        botName: "basicBot",
+        botName: "GroomBot",
         language: "french",
         chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/fr.json",
         maximumAfk: 120,
@@ -91,9 +91,9 @@
         opLink: null,
         rulesLink: null,
         themeLink: null,
-        fbLink: https://www.facebook.com/gamingroomtv,
-        youtubeLink: https://www.youtube.com/user/GamingRoomFR,
-        website: http://gamingroom.tv/,
+        fbLink: "https://www.facebook.com/gamingroomtv",
+        youtubeLink: "https://www.youtube.com/user/GamingRoomFR",
+        website: "http://gamingroom.tv/",
         intervalMessages: [],
         messageInterval: 5,
         songstats: true,
