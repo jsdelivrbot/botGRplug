@@ -1556,7 +1556,7 @@
                     'vous a donné un cookie au chocolat. Oh attend, ce sont des raisons secs. Beurk!',
                     'vous a donné un ENORME cookie. Heureux?',
                     'vous offre un biscuit chinois. C\'est écrit "Pourrquoi ne développeriez pas un projet?"',
-                    'vous offre un biscuit chinois. C\'est écrit "Faite à quelqu\un des compliments, il/elle sera content(e)"',
+                    'vous offre un biscuit chinois. C\'est écrit "Faite à quelqu\un des compliments, il sera content"',
                     'vous offre un biscuit chinois. C\'est écrit "Tu prends des risques!"',
                     'vous offre un biscuit chinois. C\'est écrit "Tu sors."',
                     'vous offre un biscuit chinois. C\'est écrit "N\'oublies pas de manger tes légumes!"',
