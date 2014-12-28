@@ -230,7 +230,7 @@
             themeLink: null,
             fbLink: "https://www.facebook.com/gamingroomtv",
 	    twitterLink: "https://twitter.com/GamingRoomTV?lang=fr",
-            youtubeLink: "https://www.youtube.com/user/GamingRoomFR",
+            youtubeLink: null,
             website: "http://gamingroom.tv/",
             intervalMessages: [],
             messageInterval: 5,
@@ -2847,7 +2847,7 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        if (typeof basicBot.settings.youtubeLink === "string")
+                        if (typeof basicBot.settings.youtubeLink === "https://www.youtube.com/user/GamingRoomFR")
                             API.sendChat(subChat(basicBot.chat.youtube, {name: chat.un, link: basicBot.settings.youtubeLink}));
                     }
                 }
