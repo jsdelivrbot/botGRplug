@@ -184,15 +184,15 @@
         loggedInID: null,
         scriptLink: "https://rawgit.com/Yemasthui/basicBot/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/fr.json",
+        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
         retrieveFromStorage: retrieveFromStorage,
         settings: {
             botName: "basicBot",
-            language: "french",
-            chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/fr.json",
+            language: "english",
+            chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/en.json",
             maximumAfk: 120,
             afkRemoval: true,
             maximumDc: 60,
@@ -221,17 +221,17 @@
             afkRankCheck: "ambassador",
             motdEnabled: false,
             motdInterval: 5,
-            motd: "Bienvenue sur le Plug Non Officiel de la GRTV",
+            motd: "Temporary Message of the Day",
             filterChat: true,
             etaRestriction: false,
             welcome: true,
             opLink: null,
             rulesLink: null,
             themeLink: null,
-            fbLink: ["https://www.facebook.com/gamingroomtv"],
-	    twitterLink: ["https://twitter.com/GamingRoomTV?lang=fr"],
-            youtubeLink: ["https://www.youtube.com/user/GamingRoomFR"],
-            website: ["http://gamingroom.tv/"],
+            fbLink: "https://www.facebook.com/gamingroomtv",
+			twitterLink: "https://twitter.com/GamingRoomTV",
+            youtubeLink: "https://www.youtube.com/user/GamingRoomFR",
+            website: "http://gamingroom.tv/",
             intervalMessages: [],
             messageInterval: 5,
             songstats: true,
@@ -2833,8 +2833,8 @@
                     if (this.type === 'exact' && chat.message.length !== cmd.length) return void (0);
                     if (!basicBot.commands.executable(this.rank, chat)) return void (0);
                     else {
-                        if (typeof basicBot.settings.website === "string")
-                            API.sendChat(subChat(basicBot.chat.website, {link: basicBot.settings.website}));
+                        var link = "http://gamingroom.tv/";
+                        API.sendChat(subChat(basicBot.chat.website, {link: link}));
                     }
                 }
             },
