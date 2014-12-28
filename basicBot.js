@@ -1553,7 +1553,7 @@
                     'vous a donné un doux biscuit à l\'avoine fait maison!',
                     'vous a simplement donné un vieux cookie sec. C\'était le dernier dans le sac.',
                     'vous a donné un cookie sucré. Quoi ? Pas de glaçage ni de vermicelles ? #Rendlargentauxabonnés',
-                    'vous a donné un cookie au chocolat. Oh attend, ce sont des raisons secs. Beurk !',
+                    'vous a donné un cookie au chocolat. Oh attend, ce sont des raisins secs. Beurk !',
                     'vous a donné un ENORME cookie. Heureux ?',
                     'vous offre un biscuit chinois. C\'est écrit "Pourquoi ne développeriez pas un projet ?"',
                     'vous offre un biscuit chinois. C\'est écrit "Faite à quelqu\'un des compliments, il sera content"',
