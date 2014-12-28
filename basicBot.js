@@ -54,7 +54,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/Yemasthui/basicBot/master/lang/langIndex.json", function (json) {
+        $.get("https://rawgit.com/AkainuTAMAKI/botGRplug/master/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -184,7 +184,7 @@
         loggedInID: null,
         scriptLink: "https://rawgit.com/AkainuTAMAKI/botGRplug/master/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/fr.json",
+        chatLink: "https://rawgit.com/AkainuTAMAKI/botGRplug/master/fr.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -192,7 +192,7 @@
         settings: {
             botName: "basicBot",
             language: "french",
-            chatLink: "https://rawgit.com/Yemasthui/basicBot/master/lang/fr.json",
+            chatLink: "https://rawgit.com/AkainuTAMAKI/botGRplug/master/fr.json",
             maximumAfk: 120,
             afkRemoval: true,
             maximumDc: 60,
