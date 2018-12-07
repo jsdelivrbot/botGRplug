@@ -54,7 +54,7 @@
     var loadChat = function (cb) {
         if (!cb) cb = function () {
         };
-        $.get("https://rawgit.com/AkainuTAMAKI/botGRplug/master/langIndex.json", function (json) {
+        $.get("https://cdn.jsdelivr.net/gh/AkainuTAMAKI/botGRplug/langIndex.json", function (json) {
             var link = basicBot.chatLink;
             if (json !== null && typeof json !== "undefined") {
                 langIndex = json;
@@ -182,9 +182,9 @@
         status: false,
         name: "basicBot",
         loggedInID: null,
-        scriptLink: "https://rawgit.com/AkainuTAMAKI/botGRplug/master/basicBot.js",
+        scriptLink: "https://cdn.jsdelivr.net/gh/AkainuTAMAKI/botGRplug/basicBot.js",
         cmdLink: "http://git.io/245Ppg",
-        chatLink: "https://rawgit.com/AkainuTAMAKI/botGRplug/master/fr.json",
+        chatLink: "https://cdn.jsdelivr.net/gh/AkainuTAMAKI/botGRplug/fr.json",
         chat: null,
         loadChat: loadChat,
         retrieveSettings: retrieveSettings,
@@ -192,7 +192,7 @@
         settings: {
             botName: "GroomBot",
             language: "french",
-            chatLink: "https://rawgit.com/AkainuTAMAKI/botGRplug/master/fr.json",
+            chatLink: "https://cdn.jsdelivr.net/gh/AkainuTAMAKI/botGRplug/fr.json",
             maximumAfk: 120,
             afkRemoval: true,
             maximumDc: 60,
